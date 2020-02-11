@@ -1,9 +1,10 @@
 'use-strict'
+
 /**
  * Scope Rules
  */
 
-let showVarScope = () => {
+function showVarScope(){
     console.log("-----Showing var scope-----")
     
     var number1 = 1997;
@@ -20,7 +21,7 @@ let showVarScope = () => {
      */
 }
 
-let showLetScope = () => {
+function showLetScope(){
     console.log("-----Showing let scope-----")
     
     let number1 = 1997;
@@ -35,6 +36,31 @@ let showLetScope = () => {
     /**
      * They are diferent variables
      */
+}
+
+function showPractcalScope(){
+    console.log("-----Showing a practical example-----");
+
+    var a = 10;
+    var b = 3
+
+    console.log("Before if");
+    console.log("a  = " + a);
+    console.log("b  = " + b);
+
+    if(a == 10){
+        console.log("Inside if");
+
+        let a = 6;
+        var b = 10;
+
+        console.log("a  = " + a);
+        console.log("b  = " + b);
+    }
+
+    console.log("Outside if");
+    console.log("a  = " + a);
+    console.log("b  = " + b);
 }
 
 
