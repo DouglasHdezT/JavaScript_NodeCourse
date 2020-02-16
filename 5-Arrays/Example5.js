@@ -3,7 +3,7 @@
  */
 
 let numbers = [1, 2, 3, 4, 5];
-let persons = [
+let people = [
     {name: "Douglas", lastname: "Hernandez"},
     {name: "Pedro", lastname: "Gomez"},
 ] 
@@ -17,7 +17,7 @@ const arrayTimesX = x => {
 }
 
 const listFullnames = () => {
-    let fullnames = persons.map(element => {
+    let fullnames = people.map(element => {
         let fullname = `${element.name} ${element.lastname}`;
         return fullname;
     });
