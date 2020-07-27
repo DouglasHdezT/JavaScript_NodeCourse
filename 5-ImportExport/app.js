@@ -1,2 +1,2 @@
 const requireESM = require("esm")(module);
-requireESM("./Example2.js")
+requireESM(`./${process.argv[2] || "Example1"}`)
