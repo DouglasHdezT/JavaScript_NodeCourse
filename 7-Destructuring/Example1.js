@@ -13,8 +13,12 @@ const listFullnames = () => {
         //It pulls out only name and lastname, and assign them to both variables
         let {name, lastname} = element;
 
+        console.log(name);
+        console.log(lastname);
+        
+
         let fullname = `${name} ${lastname}`;
-        return fullname;
+        return {name, lastname};
     });
 
     console.log(fullnames);

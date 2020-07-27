@@ -2,14 +2,12 @@
  * Base exporting
  */
 
-const date = new Date();
+export const date = new Date();
 
-const add = (a, b) => {
+export const add = (a, b) => {
     return a + b;
 }
 
-const sub = (a, b) => {
+export const sub = (a, b) => {
     return a - b;
 }
-
-export {date, add, sub}

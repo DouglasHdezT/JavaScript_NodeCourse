@@ -63,4 +63,6 @@ function showPractcalScope(){
     console.log("b  = " + b);
 }
 
-
+showVarScope();
+showLetScope();
+showPractcalScope();

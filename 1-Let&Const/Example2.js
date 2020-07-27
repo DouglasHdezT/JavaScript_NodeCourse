@@ -14,3 +14,5 @@ function showVariables(){
     console.log(window.variable1);
     console.log(window.variable2);
 }
+
+showVariables();

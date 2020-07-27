@@ -44,10 +44,10 @@ async function delayedPow2(x) {
     return result;
 }
 
-delayedPow1(10).then(v => {
-    console.log(v); 
-});
-
 delayedPow2(10).then(v => {
     console.log(v); 
 });
+
+/* delayedPow2(10).then(v => {
+    console.log(v); 
+}); */

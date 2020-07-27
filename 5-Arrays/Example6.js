@@ -17,7 +17,7 @@ let numbers = [1, 2, 3, 4, 5];
 let addAllNumbers = () => {
     let acumulator = numbers.reduce ((curResult, element) => {
         return curResult + element;
-    })
+    },0)
 
     console.log(acumulator);
 }

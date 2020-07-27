@@ -19,5 +19,5 @@ const filterEBooks = () => {
     console.log(ebooks);
     
 }
-
 filterEBooks();
+console.log(books);
