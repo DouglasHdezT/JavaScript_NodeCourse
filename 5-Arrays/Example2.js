@@ -1,5 +1,3 @@
-'use-strict'
-
 /**
  * Concat, slice and splice
  */

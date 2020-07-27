@@ -1,5 +1,3 @@
-'use-strict'
-
 /**
  * Push, pop, unshift, shift
  */

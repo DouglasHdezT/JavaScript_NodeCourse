@@ -1,5 +1,3 @@
-'use-strict'
-
 /**
  * For each; it's used to go through an array; you can know every item with its position in every iteration
  */
