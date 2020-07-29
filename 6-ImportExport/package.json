@@ -1,8 +1,0 @@
-{
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"esm": "^3.2.25"
-	}
-}
