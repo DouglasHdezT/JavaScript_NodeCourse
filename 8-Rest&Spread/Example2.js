@@ -12,10 +12,3 @@ const sortNumbersAndList = (...numbers) => {
 
 sortNumbersAndList(1, 3, 5, 6, 7, 2, 4);
 
-let array = {name: ""};
-
-for(let i = 0; i<5; i++){
-    array = {name: "", ...array}
-}
-
-console.log(array);
